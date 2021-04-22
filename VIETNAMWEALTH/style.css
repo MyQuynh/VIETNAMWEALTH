@@ -112,7 +112,7 @@ hr {
 }
 
 /* Links inside the navbar */
-.navbar a:not(.small-mess) {
+.navbar a:not(.small-mess, .navbar-brand) {
     float: left;
     font-size: 16px;
     color: white;
@@ -126,9 +126,7 @@ a.navbar-brand {
     text-align: center;
     align-content: center;
     float: left;
-    padding: 0;
     padding-top: 13px;
-    /*padding: 25px 16px;*/
 }
 
 .navbar .icon {
@@ -154,7 +152,7 @@ a.navbar-brand {
 }
 
 /* Add a red background color to navbar links on hover */
-.navbar a:hover:not(.navbar-brand, .signup, .small-mess), .dropdown:hover .dropbtn {
+.navbar a:hover:not(.navbar-brand, .signup), .dropdown:hover .dropbtn {
     background-color: white;
     color: black;
 }
