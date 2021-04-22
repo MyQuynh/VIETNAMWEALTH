@@ -108,7 +108,7 @@ hr {
 /* Navbar container */
 .navbar {
     overflow: hidden;
-    background-color: #DB364E;
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
 }
 
 /* Links inside the navbar */
@@ -209,15 +209,12 @@ a.signup:hover {
     font-size: 16px;
 }
 
-a.signup:hover {
-    background-color: #DB364E;
-}
 
 .button {
     border-radius: 5px;
     border-style: solid;
     border-color: white;
-    background-color: #DB364E;
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
     /*margin: 16px 0;*/
     padding: 12px 16px;
     color: white;
