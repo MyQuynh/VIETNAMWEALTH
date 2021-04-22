@@ -116,7 +116,8 @@ hr {
     float: left;
     font-size: 16px;
     color: white;
-    text-align: center;
+    align-content: center;
+    align-items: center;
     padding: 30px 16px;
     text-decoration: none;
 }
@@ -244,7 +245,7 @@ a.signup:hover {
 
     .footer_col a:hover {
         text-decoration: none;
-        color: #00f9e8;
+        color: #DB364E;
     }
 
     .footer_col a:active {
@@ -448,7 +449,7 @@ input[type="reset"] {
 @media screen and (max-width: 1024px) {
 
     .navbar .logo-image img {
-        width: 80px;
+        width: 150px;
         border-radius: 50%;
         overflow: hidden;
         margin-top: -6px;
@@ -458,20 +459,20 @@ input[type="reset"] {
         float: unset;
     }
 
-    .navbar a:not(:first-child), .dropdown .dropbtn {
+    .navbar a:not(.navbar-brand), .dropdown .dropbtn {
         display: none;
     }
 
-    .navbar a {
-        float: left;
+    .navbar div a {
+        float:left;
         padding: 20px 16px;
     }
 
-        .navbar a.icon {
-            float: right;
-            display: block;
-            padding: 30px 16px;
-        }
+    .navbar a.icon {
+        float: right;
+        display: block;
+        padding: 30px 16px;
+    }
 
     .price h1 {
         font-size: 25px;
@@ -545,6 +546,11 @@ input[type="reset"] {
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 1024px) {
 
+    .grid_2_items {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
 
     .navbar.responsive {
         position: relative;
@@ -556,14 +562,21 @@ input[type="reset"] {
             top: 0;
         }
 
-    .navbar div {
-        float: left;
+    .navbar div a {
+        float: unset;
     }
 
     .navbar.responsive a {
         float: none;
         display: block;
-        text-align: left;
+        margin:0;
+        text-align:center;
+    }
+
+    .navbar.responsive a:not(a.icon) {
+        width:95%;
+        float:left;
+        justify-content:center;
     }
 
     .navbar.responsive .dropdown {
@@ -577,7 +590,7 @@ input[type="reset"] {
     .navbar.responsive .dropdown .dropbtn {
         display: block;
         width: 100%;
-        text-align: left;
+        text-align: center;
     }
 }
 
