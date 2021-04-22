@@ -112,7 +112,7 @@ hr {
 }
 
 /* Links inside the navbar */
-.navbar a {
+.navbar a:not(.small-mess) {
     float: left;
     font-size: 16px;
     color: white;
@@ -154,7 +154,7 @@ a.navbar-brand {
 }
 
 /* Add a red background color to navbar links on hover */
-.navbar a:hover:not(.navbar-brand, .signup), .dropdown:hover .dropbtn {
+.navbar a:hover:not(.navbar-brand, .signup, .small-mess), .dropdown:hover .dropbtn {
     background-color: white;
     color: black;
 }
