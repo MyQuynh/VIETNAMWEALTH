@@ -78,7 +78,10 @@ table {
 }
 
 hr {
-    border: 1.5px solid black;
+    border: 1px solid white;
+    color:white;
+    width:80%;
+    margin-top:100px;
 }
 
 .nav {
@@ -219,6 +222,14 @@ a.signup:hover {
     display: block;
 }
 
+footer .footer_column1, footer .footer_column2{
+    font-size: 12px;
+}
+
+.footer_column3 .fa {
+    font-size:30px;
+}
+
 
 
 .footer_col {
@@ -226,6 +237,7 @@ a.signup:hover {
     justify-content: center;
     display: flex;
     grid-gap: 3%;
+    font-size: 12px;
 }
 
     .footer_col a:link {
