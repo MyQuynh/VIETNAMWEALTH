@@ -9,10 +9,10 @@ ul li {
     color: #932432;
 }
 
-#cookie-link:visited, #privacy-generate:visited, #cookie-link:visited {
+#cookie-link:visited, #privacy-generate:visited, #privacy-example:visited {
     color: transparent;
 }
-#cookie-link:hover, #privacy-generate:hover, #cookie-link:hover {
+#cookie-link:hover, #privacy-generate:hover, #privacy-example:hover {
     color: #2a3647;
 }
 
