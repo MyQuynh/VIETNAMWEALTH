@@ -1,0 +1,64 @@
+
+
+ul li {
+    padding: 0;
+    margin-left: 145px;
+}
+
+#privacy-example, #privacy-generate, #cookie-link {
+    color: #932432;
+}
+
+#cookie-link:visited, #privacy-generate:visited, #cookie-link:visited {
+    color: transparent;
+}
+#cookie-link:hover, #privacy-generate:hover, #cookie-link:hover {
+    color: #2a3647;
+}
+
+
+.title-container {
+    padding: 0px 3.2rem 0px 3.2rem;
+    height: 350px;
+    display: block;
+    background-color: #f3f3f3;
+}
+
+.title-container .content-wrapper {
+    text-align: center;
+    width: 100%;
+    height: inherit;
+    margin: 0 auto;
+}
+
+.title-container .content-wrapper .title-content {
+    padding-top: 90px;
+    font-size: 2.25rem;
+    font-weight: 400px;
+    color: #932432;
+}
+
+.title-container .content-wrapper .title-content p {
+    margin-top: -40px;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+.privacy-content p {
+    text-align: justify;
+    padding-left: 145px;
+    padding-right: 145px;
+}
+
+.privacy-sub-title {
+    width: 80%;
+    text-align: center;
+    background-color: #932432;
+    color: #fff;
+    padding: 8px 0px 8px 0px;
+    font-size: 18px;
+    opacity: 0.9;
+    margin-left: 145px;
+}
+
+
