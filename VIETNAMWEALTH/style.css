@@ -8,15 +8,25 @@
   gap: 15px;
 }
 
+.message-regist a {
+    text-decoration: none;
+    color: #fd6d0f;
+}
+
+.message-regist a:hover{
+    text-decoration:underline;
+}
+
+
 .slick-prev:before,
 .slick-next:before {
-  font-family: "slick";
-  font-size: 500px;
-  line-height: 1;
-  opacity: 0.75;
-  color: black !important;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: "slick";
+    font-size: 500px;
+    line-height: 1;
+    opacity: 0.75;
+    color: black !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 table,
