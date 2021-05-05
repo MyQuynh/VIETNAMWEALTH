@@ -13,12 +13,15 @@
     <link rel="mask-icon" type="" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
 
 
-    <title>CodePen - Fancy Search Box // SVG + CSS + jQuery</title>
+    <!-- <title>CodePen - Fancy Search Box // SVG + CSS + jQuery</title>-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:300,400,500,600" rel="stylesheet">
 
     <link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css">
     <link rel="stylesheet" href="searchbar.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="faq_style.css">
+    <link rel="stylesheet" href="other_styling_sheets/news.css">
+
 
 </head>
 
@@ -27,36 +30,42 @@
     <!--Header Area-->
     <header>
         <!--Navigation area-->
-        <nav class="navbar" id="myTopnav" style="height: 78px; background-image: none; background-color: #db364e;">
+        <nav class="navbar" id="myTopnav">
             <!--Home (this page), About Us, Fees, My Account, Browse, FAQs, and Contact.-->
             <a class="navbar-brand" href="home.html">
                 <div class="logo-image">
                     <!--Source image: https://dribbble.com/shots/14624703-E-Commerce-Logo -->
-                    <img src="image\logo11.png" class="img-fluid">
+                    <img src="https://i.imgur.com/dotYs8i.png" class="img-fluid">
                 </div>
             </a>
             <!--Navigation bar-->
-            <div style="float:right">
+            <div class="nav-items" style="float:right">
                 <!--News, Planning, Log In , Get started, FAQs-->
-                <a href="news.html">News</a>
-                <a href="planning.html">Planning</a>
-                <a href="fee.html">Pricing</a>
-                <a href="myaccount.html">My Account</a>
-                <!--<div class="dropdown">
-                    <button class="dropbtn">
-                        Browse
-                        <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content">
-                        <a href="browsebycate.html">Browse by categories</a>
-                        <a href="browsebyname.html">Browse by name</a>
-                    </div>
-                </div>-->
-                <a href="faq.html">FAQs</a>
-                <a href="contact.html">Contact</a>
-                <a class="button" href="login.html" style="padding:12px; margin :15px 0 0 15px;">Log In</a>
+                <span class="destinations">
+                    <a href="news.html">News</a>
+                    <a href="planning.html">Planning</a>
+                    <a href="fee.html">Pricing</a>
+                    <a href="myaccount.html">My Account</a>
+                    <!--<div class="dropdown">
+                        <button class="dropbtn">
+                            Browse
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="browsebycate.html">Browse by categories</a>
+                            <a href="browsebyname.html">Browse by name</a>
+                        </div>
+                    </div>-->
+                    <a href="faq.html">FAQs</a>
+                    <a href="contact.html">Contact</a>
+                </span>
+                <span class="button-login">
+                    <a href="login.html">Log in</a>
+                </span>
 
-                <a class="button" href="login.html" style="padding:12px; margin: 15px 10px 0 15px;">Get Started</a>
+                <span class="button-getstart">
+                    <a href="login.html">Get started</a>
+                </span>
 
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
             </div>
@@ -69,8 +78,8 @@
         <div style="width:100%; justify-content:center;">
             <h1 style="text-align:center">Hello, how can we help you ?</h1>
         </div>
-        <div class="container" style="padding-top:2%;color:#fd6d0f">
-
+        <!--Search bar-->
+        <div class="" style="padding-top:2%;color:#fd6d0f;">
 
             <div class="search-box">
                 <div class="search-icon"><i class="fa fa-search search-icon"></i></div>
@@ -80,11 +89,63 @@
                 <svg class="search-border" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" x="0px" y="0px" viewBox="0 0 671 111" style="enable-background:new 0 0 671 111;" xml:space="preserve">
                 <path class="border" d="M335.5,108.5h-280c-29.3,0-53-23.7-53-53v0c0-29.3,23.7-53,53-53h280"></path>
                 <path class="border" d="M335.5,108.5h280c29.3,0,53-23.7,53-53v0c0-29.3-23.7-53-53-53h-280"></path>
-        </svg>
+                </svg>
                 <div class="go-icon"><i class="fa fa-arrow-right"></i></div>
             </div>
 
         </div>
+        <div class="faq-container">
+            <details open>
+                <summary>How mush does it cost</summary>
+                <div class="faq__content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor suscipit, iure tenetur eveniet, vero tempore delectus? Perferendis, quisquam ullam consequuntur?</p>
+                </div>
+            </details>
+
+            <details>
+                <summary>Will I get pestered with calls?</summary>
+                <div class="faq__content">
+                    <p>Fugiat quo voluptas nulla pariatur? Et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque. Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.</p>
+                </div>
+            </details>
+
+            <details>
+                <summary>How long will it take me?</summary>
+                <div class="faq__content">
+                    <p>Fugiat quo voluptas nulla pariatur? Et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque. Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.</p>
+                </div>
+            </details>
+
+            <details>
+                <summary>Why should I need to link my accounts?</summary>
+                <div class="faq__content">
+                    <p>Fugiat quo voluptas nulla pariatur? Et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque. Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.</p>
+                </div>
+            </details>
+
+            <details>
+                <summary>How often does it update?</summary>
+                <div class="faq__content">
+                    <p>Fugiat quo voluptas nulla pariatur? Et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque. Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.</p>
+                </div>
+            </details>
+
+            <details>
+                <summary>Will you only recommend VietWealth accounts?</summary>
+                <div class="faq__content">
+                    <p>Fugiat quo voluptas nulla pariatur? Et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque. Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.</p>
+                </div>
+            </details>
+
+            <details>
+                <summary>What if I have nothing to plan for?</summary>
+                <div class="faq__content">
+                    <p>Fugiat quo voluptas nulla pariatur? Et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque. Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.</p>
+                </div>
+            </details>
+        </div>
+        
+
     </main>
 
     <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
@@ -126,6 +187,53 @@
             window.parent.postMessage("resize", "*");
         }
     </script>
+
+    <!--Footer Area-->
+    <!-- Element that contains the client's contact email, phone and address details
+        (these can be dummy data). Please put your student name(s) and student id(s) in the footer with a link to your GitHub repository.-->
+    <!--<footer>
+        <div class="flex">-->
+            <!--Zero Columns-->
+            <!--First Columns-->
+            <!--<div class="footer_column1">
+                <h2>Contact us</h2>
+                <p><i class="fa fa-envelope"></i> Email: vietwealth@gmail.com</br></p>
+                <p>
+                    <i class="fa fa-phone" aria-hidden="true" style='font-size:15px'></i> Phone: (079) 330 7576</br>
+                </p>
+                <p> <i class="fa fa-map-marker" aria-hidden="true"></i> Address: Ho Chi Minh City</p>
+            </div>-->
+            <!--Second Columns-->
+            <!--<div class="footer_column2">
+                <h2>More</h2>
+                <p>
+                    VietWealth 101
+                </p>
+                <p>
+                    VietWealth Advisor
+                </p>
+                <p>
+                    VietWealth Shop
+                </p>
+            </div>-->
+
+            <!--Third Columns-->
+            <!--<div class="footer_column3">-->
+                <!--Remember to add link Github-->
+                <!--<h3><a><i class="fa fa-linkedin" aria-hidden="true"></i></a></h3>
+                <h3><i class="fa fa-facebook-official" aria-hidden="true"></i></h3>
+                <h3><i class="fa fa-twitter" aria-hidden="true"></i></h3>
+            </div>
+        </div>
+        <hr />
+        <div class="footer_col">
+            <a href="terms.html"><span>Terms of Service</span></a>
+            <a href="privacy.html"><span>Privacy Policy</span></a>
+            <span>© VietWealth Inc. 2021</span>
+        </div>
+
+    </footer>-->
+
 </body>
 
 </html>
