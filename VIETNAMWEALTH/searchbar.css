@@ -56,14 +56,6 @@ main {
     letter-spacing: -0.055em;
 }*/
 
-h2 {
-    display: block;
-    margin: 0 auto 60px auto;
-    text-align: center;
-    font-weight: 400;
-    font-size: 1.25em;
-    letter-spacing: -0.015em;
-}
 
 .container {
     position: relative;
