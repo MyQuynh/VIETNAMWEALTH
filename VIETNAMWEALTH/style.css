@@ -108,7 +108,7 @@ hr {
   color: white;
   align-content: center;
   align-items: center;
-  padding: 26px 16px 30px 16px;
+  padding: 26px 12px 30px 12px;
   text-decoration: none;
   transition: all .5s;
   -webkit-transition: all .5s;
@@ -537,13 +537,13 @@ input[type="reset"] {
 
   .navbar div a {
     float: left;
-    padding: 20px 16px;
+    padding: 20px 12px;
   }
 
   .navbar a.icon {
     float: right;
     display: block;
-    padding: 30px 16px;
+    padding: 30px 12px;
   }
 
   .price h1 {
