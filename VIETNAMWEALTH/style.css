@@ -75,6 +75,10 @@ hr {
   margin-bottom: 20px;
 }
 
+.active-page {
+  background-color: #ff611d;
+}
+
 .nav {
   overflow: hidden;
   background-color: black;
