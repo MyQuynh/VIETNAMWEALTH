@@ -5,7 +5,7 @@
 
 .grid_2_items {
   display: flex;
-  gap: 15px;
+  padding: 0px;
 }
 
 .message-regist a {
@@ -106,6 +106,8 @@ hr {
   align-items: center;
   padding: 26px 16px 30px 16px;
   text-decoration: none;
+  transition: all .5s;
+  -webkit-transition: all .5s;
 }
 
 a.navbar-brand {
@@ -493,37 +495,7 @@ input[type="reset"] {
   overflow-x: auto;
 }
 
-.article-container {
-  justify-content: space-around;
-}
 
-.article-card {
-  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
-  max-width: 351px;
-  text-align: center;
-  font-family: arial;
-}
-
-.article-image {
-  height: 351px;
-  width: 310px;
-  align-content: center;
-  align-items: center;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-
-.article-card button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: white;
-  background-color: #db364e;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-}
 
 .register-page .form {
   margin-top: -40px;
