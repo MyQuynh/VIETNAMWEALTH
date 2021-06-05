@@ -3,6 +3,10 @@
     src: url("./Bodonitown/Bodonitown.ttf"); /* IE9 Compat Modes */
 }
 
+body {
+    background-color: #101727;
+}
+
 .first-page {
     padding: 0 0 0 70px;
 }
@@ -104,5 +108,19 @@ div.content {
 p:not(:first-child){
     margin-top:-10px;
     line-height:2;
+}
+
+.form {
+    position:absolute;
+    padding:200px 300px 100px 200px;
+    background-color:#ff611d;
+    text-align:left;
+    margin:150px;
+}
+
+.form h2 {
+    font-size: 50px;
+    font-family: Bodonitown;
+    color: #101727;
 }
 
