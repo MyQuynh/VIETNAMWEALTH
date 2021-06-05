@@ -8,7 +8,7 @@ body {
 }
 
 .first-page {
-    padding: 0 0 0 70px;
+    padding: 0 0 0px 70px;
 }
 
 .first-page:first-child {
@@ -122,5 +122,10 @@ p:not(:first-child){
     font-size: 50px;
     font-family: Bodonitown;
     color: #101727;
+}
+
+.first-page hr {
+    border-top: 10px dotted #ff611d;
+    width:55%;
 }
 
