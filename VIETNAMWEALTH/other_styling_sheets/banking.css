@@ -11,13 +11,14 @@ div {
     display: block;
     overflow: hidden;
     box-sizing: border-box;
-    margin-top: 47px;
-    margin-bottom: 47px;
+    /* margin-top: 47px;
+    margin-bottom: 47px; */
 }
 
 .banking-page-intro-section {
     display: block;
     box-sizing: border-box;
+    padding: 50px 0;
 }
 
 .banking-page-intro-section .banking-page-container {
@@ -148,3 +149,39 @@ div {
     text-align: center;
 }
 
+/* second section */
+#banking-page-container-section2 {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    display: block;
+}
+
+#horizontal-section-2 {
+    margin-right: 90px;
+}
+
+#col-1-2 {
+    width: 40%;
+}
+
+#col-2-2 {
+    width: 60%;
+}
+
+#banking-page-intro-content-container-section2 {
+    width: 50%;
+}
+
+#flex-div-1 {
+    margin-bottom: 40px;
+}
+
+#flex-div-1 p {
+    font-size: 16px;
+}
+
+#banking-page-intro-content-container-section2 > p {
+    margin-bottom: 40px;
+    font-size: 16px;
+}
