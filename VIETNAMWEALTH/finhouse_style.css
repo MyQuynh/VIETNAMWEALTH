@@ -103,5 +103,6 @@ div.content {
 
 p:not(:first-child){
     margin-top:-10px;
+    line-height:2;
 }
 
