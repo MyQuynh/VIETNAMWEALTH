@@ -32,7 +32,7 @@
     }
 
     .first-page h2 {
-        font-size: 80px;
+        font-size: 100px;
         font-family: Bodonitown;
         margin-bottom: 37px;
     }
@@ -42,7 +42,7 @@
     }
 
     .first-page .cap {
-        font-family: Bodonitown;
+        font-family: 'Bodonitown';
         color: #ff611d;
         font-size: 24px;
         margin-top: 50px;
@@ -98,11 +98,14 @@ div.content {
     flex-direction: column;
     width: 100%;
     text-align: center;
-    align-items: center;
 }
 
 p:not(:first-child){
     margin-top:-10px;
     line-height:2;
+}
+
+ul li {
+    padding: 10px;
 }
 
