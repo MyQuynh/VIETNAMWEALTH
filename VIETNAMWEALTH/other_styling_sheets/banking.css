@@ -11,8 +11,8 @@ div {
     display: block;
     overflow: hidden;
     box-sizing: border-box;
-    /* margin-top: 47px;
-    margin-bottom: 47px; */
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 .banking-page-intro-section {
@@ -62,8 +62,8 @@ div {
 }
 
 .banking-page-intro-section .banking-page-container .horizontal .col-lg .banking-page-intro-heading {
-    font-size: 88px;
-    line-height: 89px;
+    font-size: 94px;
+    line-height: 1;
     letter-spacing: 5px;
     font-family: 'Bodonitown';
     box-sizing: border-box;
@@ -132,7 +132,7 @@ div {
 }
 
 #p2-intro-content {
-    line-height: 2;
+    line-height: 1.5;
     font-size:15px;
     margin-top: 0;
     margin-bottom: 40px;
@@ -140,13 +140,18 @@ div {
 
 #p3-intro-content {
     color: #535e77;
-    line-height: 2;
+    line-height: 1.5;
     font-size: 10px;
     margin-top: 40px;
 }
 
+#col-1 {
+    width: 60%;
+}
+
 #col-2 {
     text-align: center;
+    width: 30%;
 }
 
 /* second section */
@@ -166,11 +171,9 @@ div {
 }
 
 #col-2-2 {
+    padding-left: 50px;
+    margin-right: 20px;
     width: 60%;
-}
-
-#banking-page-intro-content-container-section2 {
-    width: 50%;
 }
 
 #flex-div-1 {
@@ -183,5 +186,89 @@ div {
 
 #banking-page-intro-content-container-section2 > p {
     margin-bottom: 40px;
+    font-size: 16px;
+}
+
+/* third section */
+#container1-for-section3, #container2-for-section3, #container3-for-section3, #container4-for-section3 {
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+#container3-for-section3 {
+    margin-top: 40px;
+}
+
+#title-for-section3 {
+    font-size: 80px;
+    line-height: 1;
+    letter-spacing: 5px;
+    font-family: 'Bodonitown';
+    box-sizing: border-box;
+    margin: 0;
+    border-left: 15px dotted #ff611d; 
+    padding-left: 30px;
+    border-right: 15px dotted #ff611d; 
+    padding-right: 30px;
+}
+
+#title-for-container4 {
+    font-size: 40px;
+    line-height: 1;
+    letter-spacing: 5px;
+    font-family: 'Bodonitown';
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#subcontent1-container4 {
+    text-align: center;
+    margin: 0 auto;
+    width: 65%;
+    line-height: 1.5;
+}
+
+/* questions */
+#last-banking-page-container {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    display: block;
+}
+
+#last-horizontal {
+    display: flex;
+    box-sizing: border-box;
+    margin-left: 13.1%;
+}
+#col-1-4, #col-2-4, #col-3-4 {
+    width: 25%;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.question-titles {
+    font-family: 'Bodonitown';
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+.learn-more-link {
+    text-decoration: none;
+    color: #ff611d; 
+}
+
+.learn-more-link:hover {
+    color: red;
+}
+
+.sub-question-titles {
+    margin-top: 30px;
+}
+
+.question-contents {
     font-size: 16px;
 }
