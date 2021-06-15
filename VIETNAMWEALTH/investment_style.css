@@ -3,6 +3,8 @@
     src: url("./Bodonitown/Bodonitown.ttf"); /* IE9 Compat Modes */
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
 body {
     background-color: #101727;
 }
@@ -127,4 +129,35 @@ p:not(:first-child) {
 .first-page hr {
     border-top: 10px dotted #ff611d;
     width: 55%;
+}
+
+u {
+    font-size: 65px;
+    background: rgb(255,29,88);
+    background: radial-gradient(circle, rgba(255,29,88,1) 0%, rgba(255,97,29,0.9318102240896359) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family:Bodonitown;
+}
+
+.border-text {
+    margin-bottom: 10px;
+    margin-top:20px;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    color: #101727;
+    font-size: 70px;
+    text-shadow: 2px 0 0 #ff611d, -2px 0 0 #ff611d, 0 2px 0 #ff611d, 0 -2px 0 #ff611d, 1px 1px #ff611d, -1px -1px 0 #ff611d, 1px -1px 0 #ff611d, -1px 1px 0 #ff611d;
+}
+
+.special {
+    color:white;
+    margin:50px;
+    text-align:center;
+}
+
+.center {
+    text-align: center;
+    justify-content: center;
+    padding: 100px;
 }
