@@ -17,7 +17,7 @@
 
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="https://www.medicalguardian.com/rebrand/css/landing-risk-assessment.css">
+    <link rel="stylesheet" href="survey_style.css" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -102,18 +102,8 @@
                     </div>
                 </div>
 
-                <div class="row" style="padding: 0 12px;">
-                    <div class="col-xs-6">
-                        <a href="https://www.medicalguardian.com/">
-                            <img class="logo" alt="Medical Guardian" src="https://www.medicalguardian.com/rebrand/img/landing/nav/logo-faded-blue.png" border="0">
-                        </a>
-                    </div>
-                    <div class="col-xs-6">
-                        <p class="text-right">
-                            <a class="mobile-header-phone" href="tel:8006689200"><span class="glyphicon glyphicon-earphone"></span> CALL US</a>
-                            <a class="header-phone" href="tel:8006689200"><span class="glyphicon glyphicon-earphone"></span> 800-668-9200</a>
-                        </p>
-                    </div>
+                <div class="row" style="padding-left: 30px">
+                    <h1>HELP US UNDERSTAND YOU MORE</h1>
                 </div>
 
                 <div class="steps">
@@ -450,7 +440,8 @@
                                 <div class="row">
                                     <div class="col-md-6 col-lg-5 col-lg-offset-1" style="position: relative; text-align: center; padding: 0 20px;">
                                         <p class="lead">Your Risk Score has been calculated!</p>
-                                        <img class="badge-blurred-risk-score hidden-xs" src="https://www.medicalguardian.com/rebrand/img/risk-assessment/ra-result-blurred.png" alt="result">
+                                        <img src="image/su01.png" />
+                                        <br />
                                         <p class="hidden-xs">We've also selected a few products to recommend based on the result.</p>
                                         <!-- <p class="lead">We've calculated your Risk Score!</p> -->
                                     </div>
@@ -459,7 +450,7 @@
                                         <p style="margin: 10px -15px; font-weight: 400;">Fill out the form to view your Risk Score and recommended products.</p>
                                         <div id="lead-form">
 
-                                            <p style="margin: 10px -15px 8px -15px; color: #d82c3b; font-weight: 300;"><small>All fields are required</small></p>
+                                            <p style="margin: 10px -15px 8px -15px; color: #ff6d11; font-weight: 300;"><small>All fields are required</small></p>
                                             <div class="form-horizontal">
 
 
@@ -736,7 +727,7 @@
 
       function showProgress(){
         var circle = new ProgressBar.Circle('#progress', {
-          color: '#be3867',
+            color: '#ff6d11',
           duration: 3000,
           easing: 'linear',
           strokeWidth: 4,
@@ -744,7 +735,7 @@
           trailWidth: 4,
           svgStyle: {width: '100%', height: '100%'},
           text: {
-            value: 'collecting',
+              value: 'collecting',
             style: {
               // Text color.
               // Default: same as stroke color (options.color)
@@ -779,7 +770,7 @@
       function showLoader(){
         $('#loader2').empty().show();
         var circle2 = new ProgressBar.Circle('#loader2', {
-          color: '#be3867',
+          color: '#ff6d11',
           duration: 10000,
           easing: 'linear',
           strokeWidth: 4,
