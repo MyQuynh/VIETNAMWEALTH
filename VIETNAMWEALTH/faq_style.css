@@ -1,8 +1,17 @@
-﻿.faq-container h1 {
+﻿@font-face {
+    font-family: "Bodonitown";
+    src: url("./Bodonitown/Bodonitown.ttf"); /* IE9 Compat Modes */
+}
+
+
+.faq-container h1 {
     font-size: clamp(20px, 4vw, 30px);
     line-height: 1.2;
     margin-bottom: 40px;
     margin-top: 150px;
+}
+
+main div h1 {
 }
 
 #search::placeholder {
